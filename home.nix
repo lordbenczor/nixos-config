@@ -7,4 +7,8 @@
     git
     git-crypt
   ];
+
+  programs.git.enable = true;
+  programs.git.userEmail = "mihaly_bence@yahoo.com";
+  programs.git.userName = "Mihály Bence";
 }
